@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap');
+
+*{
+    font-family: 'Edu QLD Beginner', cursive;
+}
+
+.logo{
+    width: 150px;
+}
+
+nav{
+    background-color: rgba(197, 195, 195, 0.993);
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu > *{
+    margin: 10px;
+    list-style: none;
+    font-size: 15pt;
+}
+.banner{
+    max-width: 100%;
+}
+
+.div-horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
+.div-texto{
+    background-color: rgba(197, 195, 195, 0.993);
+    color: black;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+}
+
+button{
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 40px;
+    width: 200px;
+}
+
+button:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+
+form{
+    background-color: gray;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+    margin: 60px;
+    padding: 30px;   
+}
+.pregunta{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.pregunta > *{
+    width: 100%;
+    margin: 2px;
+}
